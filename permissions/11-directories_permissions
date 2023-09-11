@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -Rugo 777
+chmod -R +x .
