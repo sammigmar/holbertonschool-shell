@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#fizzbuzz
+count=1
+while [ $count -ne 101 ]
+do
+	if [ $((count % 15)) -eq 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ $((count % 3)) -eq 0 ]
+	then
+		echo "Buzz"
+	else
+		echo $cout
+	fi
+	((count++))
+	done
+	
